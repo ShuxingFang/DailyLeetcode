@@ -1,7 +1,7 @@
 from collections import defaultdict
 
 class Solution:
-    def maximumSum(self, nums: List[int]) -> int:
+    def maximumSum(self, nums: list[int]) -> int:
 
         def find_sum_of_digits(num):
             ans = 0
